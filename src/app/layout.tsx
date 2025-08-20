@@ -1,7 +1,6 @@
 'use client'
 import { Open_Sans } from "next/font/google"
 import "./globals.css";
-import Footer from "@/components/layout/Footer";
 import { usePathname } from "next/navigation";
 import React from "react";
 import Navbar from "@/components/layout/Navbar";
