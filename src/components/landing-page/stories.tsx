@@ -12,7 +12,7 @@ export default function StoryWork() {
             <div className="w-full lg:gap-26 gap-12 flex flex-col">
                 <div className="w-full flex lg:flex-row flex-col lg:justify-between lg:justify-left">
                     <h3 className="font-sans font-medium text-neutral-800 lg:text-5xl text-4xl leading-[150%]">
-                        Latest insights, stories, <br />
+                        Latest insights stories <br />
                         and news from Nexa.
                     </h3>
 
@@ -50,4 +50,5 @@ export default function StoryWork() {
             </div>
         </div>
     )
+
 }
