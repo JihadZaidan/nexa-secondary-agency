@@ -5,7 +5,7 @@ import { Button } from "../ui/button"
 import { ArrowRight } from "lucide-react"
 import Discusion from "../../../public/about/Video-Showcase.png"
 import { useRef } from "react"
-import { useSlideFromLeft, useSlideFromRight, useFadeIn } from "@/lib/animations"
+import { useSlideFromLeft, useSlideFromRight, useFadeIn } from "@/library/animations"
 
 export default function AboutExplor() {
     const headeRef = useRef<HTMLHeadingElement>(null);
@@ -53,4 +53,5 @@ export default function AboutExplor() {
             </div>
         </div>
     )
+
 }
