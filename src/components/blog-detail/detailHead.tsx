@@ -3,7 +3,7 @@ import Image from "next/image"
 import railey from "../../../public/blog-detail/railey.png"
 import detail from "../../../public/blog-detail/detailhead.png"
 import { useRef } from "react"
-import { useSlideFromLeft, useSlideFromRight } from "@/lib/animations"
+import { useSlideFromLeft, useSlideFromRight } from "@/library/animations"
 
 export default function DetailUpper() {
     const headRef = useRef<HTMLHeadingElement>(null);
@@ -40,4 +40,5 @@ export default function DetailUpper() {
             </div>
         </div>
     )
+
 }
