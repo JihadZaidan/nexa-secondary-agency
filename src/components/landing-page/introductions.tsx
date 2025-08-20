@@ -37,18 +37,19 @@ export default function IntroCover() {
 
                 <div className="justify-left lg:justify-between lg:mt-[-1450px] gap-20 flex lg:flex-row flex-col mt-[-1100px] pl-3 lg:mb-0">
                     <Button className="justify-center lg:w-[15%] w-[25%] gap-[9px] ml-[-10px] pb-7 border-b-2 border-black">
-                        <p className="text-black text-3xl font-medium">Let&apos;s talk</p>
+                        <p className="text-black text-3xl font-medium">Lets talk</p>
                         <ArrowRight height={30} width={30} className="mt-[2px] text-black" />
                     </Button>
 
                     <p className="font-sans font-medium text-4xl text-neutral-800 leading-[150%] lg:text-right text-left">
                         — An digital agency focused on digital <br />
-                        experiences. With every single one of <br />
-                        our clients, we bring forth a deep <br />
-                        passion for creative problem solving.
+                        experiences With every single one of <br />
+                        our clients we bring forth a deep <br />
+                        passion for creative problem solving
                     </p>
                 </div>
             </div>
         </div>
     )
+
 }
