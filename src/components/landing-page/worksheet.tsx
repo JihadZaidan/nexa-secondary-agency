@@ -24,9 +24,9 @@ export default function WorkerSheet() {
                             <div className="flex flex-col gap-6">
                                 <h4 className="text-neutral-800 text-4xl font-sans font-medium text-left">/ HOUSEL</h4>
                                 <p className="text-neutral-600 text-4xl font-sans font-medium leading-[150%]">
-                                    Help you to sell, buy,  <br />
-                                    mortgage,invest property, and  <br />
-                                    other real estate service.
+                                    Help you to sell buy  <br />
+                                    mortgage,invest property and <br />
+                                    other real estate service
                                 </p>
                             </div>
                             <h4 className="text-neutral-500 text-4xl font-sans font-medium text-left">/ CONTEXT AI</h4>
@@ -47,4 +47,5 @@ export default function WorkerSheet() {
             </div>
         </div>
     )
+
 }
